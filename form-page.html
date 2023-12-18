@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form-page.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <a class="nav-button" href="home-page.html">Home</a>
+            <a class="nav-button" href="form-page.html">Dummy Form</a>
+            <a class="nav-button" href="favorite-sites.html">Favorite Sites</a>
+            <a class="nav-button" href="showroom.html">Showroom</a>
+        </nav>
+    </header>
+    <section class="sect row0">
+        <h1 class="main-element">This is a dummy Q&A</h1>
+    </section>
+    <section class="sect row1">
+        <form action="#" method="post">
+            <fieldset>
+                <div class="field-element">
+                    <label for="fullName">Full Name*:</label><br>
+                    <input class="input" type="text" id="fullName" name="full_name" required="required">
+                </div>
+
+                <div class="field-element">
+                    <label for="email">Email*:</label><br>
+                    <input class="input" type="text" id="email" name="email" required="required">
+                </div>
+
+                <div class="field-element">
+                    <label for="message">Message:</label><br>
+                    <textarea class="input" type="text" id="message" name="message" rows="10" cols="40" placeholder="Enter your message here..." required="required"></textarea>
+                </div>
+
+                <div class="field-element">
+                    <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+                    <label for="subscribe">Subscribe to follow</label>
+                </div>
+
+                <div class="field-element">
+                    <button class="submit-button input" type="submit">Submit</button>
+                </div>
+
+            </fieldset>
+        </form>
+    </section>
+
+    <footer class="sect row2">
+        <h2 class="main-element">
+            Declaration:
+        </h2>
+        <p class="main-element">
+            This page is meant to showcase my ability of developing website forms.
+        </p>
+    </footer>
+
+</body>
+</html>
